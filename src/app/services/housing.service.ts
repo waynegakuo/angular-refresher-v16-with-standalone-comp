@@ -5,8 +5,8 @@ import { HousingLocation } from "../housing-location";
   providedIn: 'root'
 })
 export class HousingService {
-
-  // Run json-server --watch db.json to mock a real live endpoint
+  // First run npm install -g json-server
+  // Then run json-server --watch db.json to mock a real live endpoint
   url = "http://localhost:3000/locations"
   constructor() { }
 
